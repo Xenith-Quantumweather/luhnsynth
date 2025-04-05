@@ -1,8 +1,5 @@
 # LuhnSynth
 
-[![Crates.io](https://img.shields.io/crates/v/luhnsynth.svg)](https://crates.io/crates/luhnsynth)
-[![Rust](https://github.com/yourusername/luhnsynth/workflows/Rust/badge.svg)](https://github.com/yourusername/luhnsynth/actions)
-
 **LuhnSynth** is a robust Rust tool designed to generate realistic synthetic credit card transaction data for testing payment processing systems. The tool produces valid credit card numbers that pass the Luhn algorithm check and conform to the correct BIN prefixes and PAN lengths for all major card brands.
 
 ## Features
@@ -15,12 +12,6 @@
 - **Randomized But Realistic**: Creates varied but plausible transaction patterns
 
 ## Installation
-
-### From Crates.io
-
-```bash
-cargo install luhnsynth
-```
 
 ### From Source
 
@@ -121,19 +112,8 @@ Never attempt to use these numbers for actual financial transactions. This tool 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Apache-2.0 License
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Acknowledgments
-
-- Inspired by the need for realistic but safe test data in payment systems
-- Thanks to the Rust community for providing excellent crates that made this tool possible
+Contributions, issues, and feature requests are welcome!
